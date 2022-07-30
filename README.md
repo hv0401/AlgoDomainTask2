@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
+##Steps to follow
+Step 1 - Clone this Repo in VS Code or Download zip and open in VS code
+
+Step 2 - Open "New Terminal" in Vs Code on Terminal bar
+
+Step 3 - go to project location --
+        
+         Run this command on terminal -- cd AlgoShoppingCart
+
+Step 4 - Run this command to run the project
+       
+       -- ng serve
+
+Step 5 - Browser will open http://localhost:4200/ 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
