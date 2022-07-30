@@ -1,0 +1,226 @@
+<div style="overflow-y: scroll; height:380px; " >
+
+    <div style="display: flex;
+    height: 80px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 3px #ebebeb" class="border border-light">
+
+        <p style="margin-top: 30px;
+                  margin-left:20px;">1</p>
+
+        <img style="height: 70px;
+                    width:65px;
+                    margin-left: 80px;
+                    margin-top: 5px;"
+        src="https://w7.pngwing.com/pngs/569/246/png-transparent-coca-cola-coca-cola-coke-canned-drinks-thumbnail.png" 
+        alt="cokeimg" class="img-thumbnail">
+
+        <p style="margin-top: 24px;
+                  margin-left:60px;">Cold Drinks</p>
+
+        <!--pcs count and + - buttons div start-->
+        <div style="margin-left: 260px;">
+            <p style="margin-left: 5px; margin-top: 3px;">{{CokeCount}} pc</p>
+            <div style="margin-top: -8px;">
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-primary btn-sm"
+                            (click)="incCoke()">+</button>
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-secondary btn-sm"
+                            (click)="decCoke()">-</button>
+            </div>
+        </div>
+        <!--pcs count and + - buttons div end-->
+
+        <p style="margin-top: 24px; margin-left:260px;">34</p>
+
+        <p style="margin-top: 24px; margin-left:124px;">{{CokePrice}}</p>
+        
+    </div>
+
+    <div style="display: flex;
+    height: 80px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 3px #ebebeb" class="border border-light">
+
+        <p style="margin-top: 30px;
+                  margin-left:20px;">2</p>
+
+        <img style="height: 70px;
+                    width:65px;
+                    margin-left: 80px;
+                    margin-top: 5px;"
+        src="https://e7.pngegg.com/pngimages/851/1023/png-clipart-three-honeycrisp-apples-apple-juice-fruit-seed-ripe-red-apples-natural-foods-food-thumbnail.png" 
+            alt="cokeimg" class="img-thumbnail">
+
+        <p style="margin-top: 24px;
+                  margin-left:50px;">Fresh Apples</p>
+
+        <!--pcs count and + - buttons div start-->
+        <div style="margin-left: 260px;">
+            <p style="margin-left: 5px; margin-top: 3px;">{{AppleCount}} kg</p>
+            <div style="margin-top: -8px;">
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-primary btn-sm"
+                            (click)="incApple()">+</button>
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-secondary btn-sm"
+                            (click)="decApple()">-</button>
+            </div>
+        </div>
+        <!--pcs count and + - buttons div end-->
+
+        <p style="margin-top: 24px; margin-left:260px;">50</p>
+
+        <p style="margin-top: 24px; margin-left:124px;">{{ApplePrice}}</p>
+        
+    </div>
+
+    <div style="display: flex;
+    height: 80px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 3px #ebebeb" class="border border-light">
+
+        <p style="margin-top: 30px;
+                  margin-left:20px;">3</p>
+
+        <img style="height: 70px;
+                    width:65px;
+                    margin-left: 80px;
+                    margin-top: 5px;"
+        src="https://w7.pngwing.com/pngs/125/615/png-transparent-paper-soapbox-soapbox-packaging-and-labeling-soap-packaging-miscellaneous-cardboard-soap-thumbnail.png" 
+                alt="soapimg" class="img-thumbnail">
+
+        <p style="margin-top: 24px;
+                  margin-left:50px;">Soaps</p>
+
+        <!--pcs count and + - buttons div start-->
+        <div style="margin-left: 306px;">
+            <p style="margin-left: 5px; margin-top: 3px;">{{SoapCount}} pc</p>
+            <div style="margin-top: -8px;">
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-primary btn-sm"
+                            (click)="incSoap()">+</button>
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-secondary btn-sm"
+                            (click)="decSoap()">-</button>
+            </div>
+        </div>
+        <!--pcs count and + - buttons div end-->
+
+        <p style="margin-top: 24px; margin-left:260px;">46</p>
+
+        <p style="margin-top: 24px; margin-left:124px;">{{SoapPrice}}</p>
+        
+    </div>
+
+    <div style="display: flex;
+    height: 80px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 3px #ebebeb" class="border border-light">
+
+        <p style="margin-top: 30px;
+                  margin-left:20px;">4</p>
+
+        <img style="height: 70px;
+                    width:65px;
+                    margin-left: 80px;
+                    margin-top: 5px;"
+        src="https://daylicart.com/uploads/thumbnail/aashirvaad-atta-shudh-chakki-thumb-1111.jpg" 
+                    alt="ataimg" class="img-thumbnail">
+
+        <p style="margin-top: 24px;
+                  margin-left:50px;">Ashirvad Aata 15kg</p>
+
+        <!--pcs count and + - buttons div start-->
+        <div style="margin-left: 210px;">
+            <p style="margin-left: 5px; margin-top: 3px;">{{AtaCount}} pc</p>
+            <div style="margin-top: -8px;">
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-primary btn-sm"
+                            (click)="incAta()">+</button>
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-secondary btn-sm"
+                            (click)="decAta()">-</button>
+            </div>
+        </div>
+        <!--pcs count and + - buttons div end-->
+
+        <p style="margin-top: 24px; margin-left:255px;">390</p>
+
+        <p style="margin-top: 24px; margin-left:124px;">{{AtaPrice}}</p>
+        
+    </div>
+
+    <div style="display: flex;
+    height: 80px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 3px #ebebeb" class="border border-light">
+
+        <p style="margin-top: 30px;
+                  margin-left:20px;">5</p>
+
+        <img style="height: 70px;
+                    width:65px;
+                    margin-left: 80px;
+                    margin-top: 5px;"
+        src="https://w7.pngwing.com/pngs/402/945/png-transparent-cherry-tomato-vegetable-graphy-tomato-natural-foods-food-tomato-thumbnail.png" 
+                alt="tomamtoimg" class="img-thumbnail">
+
+        <p style="margin-top: 24px;
+                  margin-left:50px;">Fresh Tomato</p>
+
+        <!--pcs count and + - buttons div start-->
+        <div style="margin-left: 250px;">
+            <p style="margin-left: 5px; margin-top: 3px;">{{TomCount}} kg</p>
+            <div style="margin-top: -8px;">
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-primary btn-sm"
+                            (click)="incTom()">+</button>
+                <button style="height: 30px;
+                               width:30px;"
+                            type="button" class="btn btn-secondary btn-sm"
+                            (click)="decTom()">-</button>
+            </div>
+        </div>
+        <!--pcs count and + - buttons div end-->
+
+        <p style="margin-top: 24px; margin-left:255px;">30</p>
+
+        <p style="margin-top: 24px; margin-left:124px;">{{TomPrice}}</p>
+        
+    </div>
+
+</div>
+    <!--Grand total-->
+    <div style="display: flex;"> 
+
+        <p style="font-size: medium; 
+        color: rgb(51, 0, 0);
+        margin-left: 875px;
+        margin-top: 7px;">Grand Total</p>
+        <p style="font-size: medium; 
+        color: rgb(51, 0, 0);
+        margin-left: 95px;
+        margin-top: 7px;">{{GrandTotal}}</p> 
+     </div>
+     
